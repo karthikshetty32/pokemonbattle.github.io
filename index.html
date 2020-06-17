@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pokemon Battle</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"  crossorigin="anonymous">
+<link rel="stylesheet" href="pokestyle.css" />
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+<script src='gamemanager.js'></script>
+<script src='player.js'></script>
+<script src='enemy.js'></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="row">
+<div class="col">
+
+<div class="header">
+<p>Play the greatest Battle ever to be made!</p>
+<h2>Choose your character!</h2>
+
+</div>
+
+</div>
+</div>
+
+<div class="d-flex interface">
+<div class="row justify-content-center">
+<div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
+
+<div class="d-flex flex-column">
+
+  <div class="p-2"><a href="#" onclick="GameManager.setGameStart('Blastoise')">
+  <div class="d-flex">
+<img src="images/playerpokemon/blastoise.jpg" alt="blastoise" />
+<div class=" px-2">
+<h3>Blastoise </h3>
+<p>Blastoise is a Water type Pokémon. It is known as the Shellfish Pokémon. It is vulnerable to Grass and Electric moves. Blastoise's strongest moveset is Water Gun & Hydro Cannon.</p>
+</div>
+</div>
+</a>
+</div>
+
+  <div class="p-2"><a href="#" onclick="GameManager.setGameStart('Charizad')">
+  <div class="d-flex">
+<img src="images/playerpokemon/charizad.jpg" alt="charizad" />
+<div class=" px-2">
+<h3>Charizad </h3>
+<p>Charizard is a Fire/Flying type Pokémon. It is known as the Flame Pokémon. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.</p>
+</div>
+</div>
+</a>
+</div>
+
+  <div class="p-2"><a href="#" onclick="GameManager.setGameStart('Greninja')">
+  <div class="d-flex">
+<img src="images/playerpokemon/greninja.jpg" alt="greninja" />
+<div class=" px-2">
+<h3>Greninja </h3>
+<p>Greninja is a Water/Dark type Pokémon. It is known as the Ninja Pokémon. It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.</p>
+</div>
+</div>
+</a>
+</div>
+
+  <div class="p-2"><a href="#" onclick="GameManager.setGameStart('Pikachu')">
+  <div class="d-flex">
+<img src="images/playerpokemon/pikachu.jpg" alt="pikachu" />
+<div class=" px-2">
+<h3>Pikachu </h3>
+<p>Pikachu is an Electric type Pokémon. It is known as the Mouse Pokémon. Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="p-2"><a href="#" onclick="GameManager.setGameStart('Lugia')">
+  <div class="d-flex">
+<img src="images/playerpokemon/lugia.jpg" alt="lugia" />
+<div class=" px-2">
+<h3>Lugia </h3>
+<p>Lugia is a Psychic/Flying type Pokémon. It is known as the Diving Pokémon. Lugia's wings pack devastating power—a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="p-2"><a href="#" onclick="GameManager.setGameStart('Eevee')">
+  <div class="d-flex">
+<img src="images/playerpokemon/eevee.jpg" alt="eevee" />
+<div class=" px-2">
+<h3>Eevee </h3>
+<p>Eevee is a Normal type Pokémon. It is known as the Evolution Pokémon. Eevee has a Gigantamax form. The question of why only Eevee has such unstable genes has still not been solved.</p>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+<div class="actions">
+
+
+
+</div>
+
+
+<div class="arena">
+
+
+</div>
+
+<div class="enemy">
+<center>
+
+</center>
+</div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
